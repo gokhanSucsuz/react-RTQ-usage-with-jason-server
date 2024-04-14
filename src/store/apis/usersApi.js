@@ -1,11 +1,11 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query";
 
-const usersApi = createApi({
+export const usersApi = createApi({
 	reducerPath: "users",
 	baseQuery: fetchBaseQuery({
-		baseUrl: "http://localhost:3000",
+		baseUrl: "http:localhost:3000",
 	}),
-	endpoints(builder) {
+	endpoints: (builder) => {
 		return {
 			fetchUsers: builder.query({
 				query: () => {
@@ -29,7 +29,7 @@ const usersApi = createApi({
 			removeUser: builder.mutation({
 				query: (user) => {
 					return {
-						url: `/users/${user.id}`,
+						url: `/user/${user.id}`,
 						method: "DELETE",
 					};
 				},
@@ -40,4 +40,3 @@ const usersApi = createApi({
 
 export const { useFetchUsersQuery, useAddUserMutation, useRemoveUserMutation } =
 	usersApi;
-export { usersApi };
