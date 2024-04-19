@@ -1,12 +1,12 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "Defne Kumsal"
-		},
-		{
-			"id": 4,
-			"name": "Burçin"
-		}
-	]
+  "users": [
+    {
+      "name": "Mathew Lockman",
+      "id": 2
+    },
+    {
+      "name": "Gladys Considine",
+      "id": 3
+    }
+  ]
 }

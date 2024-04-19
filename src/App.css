@@ -1,0 +1,12 @@
+.topArrangement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.panelDiv {
+    border-radius: 30px;
+    background-color: lightgray;
+}
