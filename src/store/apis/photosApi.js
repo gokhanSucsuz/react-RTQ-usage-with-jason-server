@@ -21,9 +21,9 @@ export const photosApi = createApi({
 			fetchPhotos: builder.query({
 				providesTags: (result, error, album) => {
 					const tags = result.map((photo) => {
-						return { type: "PhotoAlbum", id: photo.id };
+						return { type: "Photo", id: photo.id };
 					});
-					tags.push({ type: "UsersAlbums", id: album.id });
+					tags.push({ type: "PhotoAlbums", id: album.id });
 					return tags;
 				},
 				query: (album) => {
@@ -40,7 +40,7 @@ export const photosApi = createApi({
 				invalidatesTags: (result, error, album) => {
 					return [
 						{
-							type: "UsersAlbums",
+							type: "PhotoAlbums",
 							id: album.id,
 						},
 					];
@@ -51,7 +51,7 @@ export const photosApi = createApi({
 						method: "POST",
 						body: {
 							albumId: album.id,
-							url: faker.image.urlLoremFlickr({ width: 150, height: 150 }),
+							url: faker.image.urlPicsumPhotos({ width: 150, height: 150 }),
 						},
 					};
 				},

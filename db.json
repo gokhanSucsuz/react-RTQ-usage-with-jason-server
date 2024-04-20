@@ -59,5 +59,67 @@
       "title": "Handmade Soft Fish",
       "id": 28
     }
+  ],
+  "photos": [
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=6785597880401920",
+      "id": 1
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=1248171294457856",
+      "id": 2
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=5143425592590336",
+      "id": 3
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=2821919172722688",
+      "id": 4
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/kwODiwhVR/150/150",
+      "id": 8
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/tAv6kW/150/150",
+      "id": 9
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/1TBSF/150/150",
+      "id": 11
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/AHg8qgLMt/150/150",
+      "id": 12
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/Rczw7u/150/150",
+      "id": 13
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/rj0WNzwF7g/150/150",
+      "id": 14
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/f1jAg5/150/150",
+      "id": 15
+    },
+    {
+      "albumId": 18,
+      "url": "https://picsum.photos/seed/CNWTXxsl4/150/150",
+      "id": 18
+    }
   ]
 }
