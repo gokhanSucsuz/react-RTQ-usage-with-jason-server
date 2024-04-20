@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { GoTrash } from "react-icons/go"
 import { useRemovePhotoMutation } from "../store"
 import { CircularProgress } from "@mui/material";
