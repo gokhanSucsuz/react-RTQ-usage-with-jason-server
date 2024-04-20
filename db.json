@@ -1,24 +1,63 @@
 {
-	"users": [
-		{
-			"name": "Mathew Lockman",
-			"id": 2
-		},
-		{
-			"name": "Gladys Considine",
-			"id": 3
-		}
-	],
-	"albums": [
-		{
-			"userId": 3,
-			"id": 15,
-			"title": "San Diego"
-		},
-		{
-			"userId": 2,
-			"id": 18,
-			"title": "Los Angles"
-		}
-	]
+  "users": [
+    {
+      "name": "Mathew Lockman",
+      "id": 2
+    },
+    {
+      "name": "Gladys Considine",
+      "id": 3
+    },
+    {
+      "name": "Troy Herman",
+      "id": 4
+    }
+  ],
+  "albums": [
+    {
+      "userId": 3,
+      "id": 15,
+      "title": "San Diego"
+    },
+    {
+      "userId": 2,
+      "id": 18,
+      "title": "Los Angles"
+    },
+    {
+      "userId": 2,
+      "title": "Incredible Wooden Soap",
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "title": "Electronic Bronze Table",
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "title": "Sleek Cotton Bacon",
+      "id": 22
+    },
+    {
+      "userId": 4,
+      "title": "Generic Concrete Computer",
+      "id": 24
+    },
+    {
+      "userId": 2,
+      "title": "Rustic Frozen Chips",
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "title": "Handmade Wooden Computer",
+      "id": 27
+    },
+    {
+      "userId": 2,
+      "title": "Handmade Soft Fish",
+      "id": 28
+    }
+  ]
 }

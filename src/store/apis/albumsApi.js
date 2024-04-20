@@ -1,6 +1,5 @@
 import { faker } from "@faker-js/faker";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { usersApi } from "./usersApi";
 
 const pause = (duration) => {
 	return new Promise((resolve) => {
@@ -21,7 +20,6 @@ export const albumsApi = createApi({
 		return {
 			fetchAlbums: builder.query({
 				providesTags: (result, error, user) => {
-					debugger;
 					const tags = result.map((album) => {
 						return { type: "Album", id: album.id };
 					});

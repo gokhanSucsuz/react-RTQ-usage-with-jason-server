@@ -30,9 +30,6 @@ export const UserList = () => {
                     <CircularProgress />) : <span>Add Contact +</span>
                 }</Button>
             </div>
-
-
-
             {content}</div>
     )
 }
