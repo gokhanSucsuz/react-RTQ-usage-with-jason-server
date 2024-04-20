@@ -10,7 +10,7 @@ const pause = (duration) => {
 export const albumsApi = createApi({
 	reducerPath: "albums",
 	baseQuery: fetchBaseQuery({
-		baseUrl: "http://localhost:3000",
+		baseUrl: "https://react-rtq-usage-with-jason-server.netlify.app",
 		fetchFn: async (...args) => {
 			await pause(1000);
 			return fetch(...args);
