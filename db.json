@@ -1,12 +1,19 @@
 {
-  "users": [
-    {
-      "name": "Mathew Lockman",
-      "id": 2
-    },
-    {
-      "name": "Gladys Considine",
-      "id": 3
-    }
-  ]
+	"users": [
+		{
+			"name": "Mathew Lockman",
+			"id": 2
+		},
+		{
+			"name": "Gladys Considine",
+			"id": 3
+		}
+	],
+	"albums": [
+		{
+			"userId": 3,
+			"id": 15,
+			"title": "San Diego"
+		}
+	]
 }

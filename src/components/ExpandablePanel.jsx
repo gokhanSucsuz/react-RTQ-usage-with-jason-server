@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { useState } from "react"
-import { GoChevronLeft } from "react-icons/go"
+import { GoChevronDown, GoChevronLeft } from "react-icons/go"
 
 
 function ExpandablePanel({ header, children }) {
@@ -17,7 +17,8 @@ function ExpandablePanel({ header, children }) {
                     {header}
                 </div>
                 <div onClick={handleClick}>
-                    <GoChevronLeft />
+                    {expanded ? <GoChevronDown /> : <GoChevronLeft />}
+
                 </div>
             </div>
 
